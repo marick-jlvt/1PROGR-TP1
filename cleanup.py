@@ -1,4 +1,4 @@
-def p(n, f):
+def produit(n, f):
     """
     TODO
     """
@@ -9,9 +9,9 @@ def p(n, f):
 
 
 if __name__ == "__main__":
-    p("&", lambda x, y: x and y)
-    p("|", lambda x, y: x or y)
-    p("^", lambda x, y: x ^ y)
+    produit("&", lambda x, y: x and y)
+    produit("|", lambda x, y: x or y)
+    produit("^", lambda x, y: x ^ y)
 
 
 def R(u):
